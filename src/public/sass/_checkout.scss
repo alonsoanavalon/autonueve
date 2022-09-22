@@ -2,6 +2,7 @@
     margin-top:1rem;
     .tableResults {
         width:100%;
+        min-width:270px;
         border-collapse: collapse;
     }
 
@@ -34,15 +35,16 @@
 
 }
 
-@media (max-width: 768px) {
+@media (max-width: 568px) {
 
     .wrapperResults {
+        
         .tableResults thead {
             display: none;
         }
         .tableResults, .tableResults tbody, .tableResults tr, .tableResults td {
             display:block;
-            width:100%;
+            width:90vw;
         }
         .tableResults tr {
             margin-bottom: 1rem;

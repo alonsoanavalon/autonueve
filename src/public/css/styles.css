@@ -1239,6 +1239,7 @@ img {
   margin-top: 1rem; }
   .wrapperResults .tableResults {
     width: 100%;
+    min-width: 270px;
     border-collapse: collapse; }
   .wrapperResults .tableResults td, .wrapperResults .tableResults th {
     padding: 1rem;
@@ -1256,12 +1257,12 @@ img {
   .checkout-buttons button {
     margin: 0 2rem; }
 
-@media (max-width: 768px) {
+@media (max-width: 568px) {
   .wrapperResults .tableResults thead {
     display: none; }
   .wrapperResults .tableResults, .wrapperResults .tableResults tbody, .wrapperResults .tableResults tr, .wrapperResults .tableResults td {
     display: block;
-    width: 100%; }
+    width: 90vw; }
   .wrapperResults .tableResults tr {
     margin-bottom: 1rem; }
   .wrapperResults .tableResults td {
